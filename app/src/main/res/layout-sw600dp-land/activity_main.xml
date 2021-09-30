@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/armo1"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnregistro"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="405dp"
+        android:layout_height="114dp"
+        android:layout_marginBottom="172dp"
+        android:hint="@string/registro"
+        android:textColorHint="#412945"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnIniciar"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="405dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="48dp"
+        android:hint="@string/iniciarsesion"
+        android:textColorHint="#412945"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
